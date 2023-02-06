@@ -2,33 +2,33 @@ const menuburger = document.getElementById('menuburger')
 const navs = [...document.querySelectorAll('.navs')]
 menuburger.addEventListener('click', ()=>{
     const ols = document.querySelector('#ols')
-    
+    /* If hidden == true and show == false*/
     if (ols.classList.contains('hidden') && (ols.classList.contains('show') == false)) {
-        
+        // Remove the Attribute class: hidden
         ols.removeAttribute('class', 'hidden')
-        
+        // Remove the Set Attribute class: show
         ols.setAttribute('class', 'show')
-        // if(ols.hasAttribute('class', 'show')){
-        //     // ols.setAttribute('class', 'show')
-        //     window.alert('Shalom')
-        // }
+        // Delay code execution
         setTimeout(()=>{
             navs.map((e)=>{
                 e.style.display='block'
             })
         }, 360)
-        
+        // Sets a color dor menuburger
         menuburger.style.backgroundColor = 'var(--medinat0)'
         
     } else {
+        // Delay code execution
         setTimeout(()=>{
             navs.map((e)=>{
                 e.style.display='none'
             })
         }, 340)
+        // Remove Attribute class: show
         ols.removeAttribute('class', 'show')
+        // Set Attribute class: hidden
         ols.setAttribute('class', 'hidden')
-        
+        // Set Attribute backgroundColor for menuburger
         menuburger.style.backgroundColor = 'transparent'
     }
     

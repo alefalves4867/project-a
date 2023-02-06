@@ -76,7 +76,7 @@ div#menuburger:hover {
     
     display: flex;
     flex-direction: column;
-    transition: all ease .8s;
+    transition: all ease .8s; /* Aumenta a fluidez da aba de links */
 }
 
 .hidden {
