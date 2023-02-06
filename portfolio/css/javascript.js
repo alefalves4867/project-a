@@ -16,16 +16,19 @@ menuburger.addEventListener('click', ()=>{
             navs.map((e)=>{
                 e.style.display='block'
             })
-        }, 400)
+        }, 360)
         
         menuburger.style.backgroundColor = 'var(--medinat0)'
         
     } else {
+        setTimeout(()=>{
+            navs.map((e)=>{
+                e.style.display='none'
+            })
+        }, 340)
         ols.removeAttribute('class', 'show')
         ols.setAttribute('class', 'hidden')
-        navs.map((e)=>{
-            e.style.display = 'none'
-        })
+        
         menuburger.style.backgroundColor = 'transparent'
     }
     
