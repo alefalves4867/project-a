@@ -42,23 +42,26 @@ body {
 }
 
 section#menu {
-    display: none;
-    background-color: black;
+    display: grid;
+    background-color: var(--medinat2);
     color: white;
     font-size: 16px;
+    padding: 10px;
     width: 100vw;
     text-align: right;
-    
     padding: 20px;
-    grid-template-rows: 1fr;
-    
-    
+    justify-items: right;   
     
 }
 
 div#menuburger {
-    display: none;
+    display: flex;
     padding: 3px;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    cursor: pointer;
+    
 }
 
 div#menuburger:hover {
@@ -69,7 +72,7 @@ div#menuburger:hover {
 #links {
 
    clear: both;
-   width: 98vw !important;
+   width: 95vw !important;
 }
 
 #ols {
@@ -103,23 +106,3 @@ div#links > ol > a:hover {
     border-radius: 7px;
 }
 
-
-@media (max-width: 1024px) {
-    section#menu {
-        display: grid !important;
-        background-color: var(--medinat2);
-        padding: 10px;
-        
-        
-        
-    }
-
-    div#menuburger {
-        display: flex !important;
-        align-items: center;
-        justify-content: center;
-        width: 75px;
-        cursor: pointer;
-        justify-self: right;
-    }
-}

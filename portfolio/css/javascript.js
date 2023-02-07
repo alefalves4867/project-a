@@ -13,7 +13,7 @@ menuburger.addEventListener('click', ()=>{
             navs.map((e)=>{
                 e.style.display='block'
             })
-        }, 360)
+        }, 305)
         // Sets a color dor menuburger
         menuburger.style.backgroundColor = 'var(--medinat0)'
         
@@ -23,7 +23,7 @@ menuburger.addEventListener('click', ()=>{
             navs.map((e)=>{
                 e.style.display='none'
             })
-        }, 340)
+        }, 180)
         // Remove Attribute class: show
         ols.removeAttribute('class', 'show')
         // Set Attribute class: hidden
