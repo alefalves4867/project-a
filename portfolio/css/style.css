@@ -31,7 +31,7 @@ Grandes telas: acima de 1200px
 transition: all ease 1s;
 */
 
-body, html {
+body, html, header {
     background-color: snow;
     width: 100vw;
 }
@@ -93,7 +93,7 @@ div#menuburger:hover {
 .navs {
     display: none;
     font-size: 14px;
-    color: white;
+    color: transparent;
     margin: 2px;
     padding: 7px;
     text-align: left;
@@ -105,4 +105,20 @@ div#links > ol > a:hover {
     
     border-radius: 7px;
 }
+
+/* Animação 1 */
+
+#animationMain {
+    width: 100vw;
+    min-height: 200px;
+    background-color: black;
+}
+
+#img1 {
+    background-image: url(../images/logo/world2.png);
+    
+    background-size: cover;
+
+}
+
 

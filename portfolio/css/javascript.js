@@ -13,7 +13,13 @@ menuburger.addEventListener('click', ()=>{
             navs.map((e)=>{
                 e.style.display='block'
             })
-        }, 305)
+        }, 250)
+        setTimeout(()=>{
+            navs.map((e)=>{
+                e.style.color='white'
+        })
+        }, 580)
+        
         // Sets a color dor menuburger
         menuburger.style.backgroundColor = 'var(--medinat0)'
         
@@ -21,9 +27,14 @@ menuburger.addEventListener('click', ()=>{
         // Delay code execution
         setTimeout(()=>{
             navs.map((e)=>{
+                e.style.color='transparent'
+            })
+        }, 55)
+        setTimeout(()=>{
+            navs.map((e)=>{
                 e.style.display='none'
             })
-        }, 180)
+        }, 580)
         // Remove Attribute class: show
         ols.removeAttribute('class', 'show')
         // Set Attribute class: hidden
