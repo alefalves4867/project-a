@@ -9,32 +9,36 @@ menuburger.addEventListener('click', ()=>{
         // Remove the Set Attribute class: show
         ols.setAttribute('class', 'show')
         // Delay code execution
+        
+        setTimeout(()=>{
+            navs.map((e)=>{
+                e.style.color='white'
+        })
+        }, 585)
+
         setTimeout(()=>{
             navs.map((e)=>{
                 e.style.display='block'
             })
         }, 250)
-        setTimeout(()=>{
-            navs.map((e)=>{
-                e.style.color='white'
-        })
-        }, 580)
         
         // Sets a color dor menuburger
         menuburger.style.backgroundColor = 'var(--medinat0)'
         
     } else {
-        // Delay code execution
-        setTimeout(()=>{
-            navs.map((e)=>{
-                e.style.color='transparent'
-            })
-        }, 55)
         setTimeout(()=>{
             navs.map((e)=>{
                 e.style.display='none'
             })
         }, 580)
+        // Delay code execution
+        setTimeout(()=>{
+            navs.map((e)=>{
+                e.style.color='transparent'
+               
+            })
+        }, 54)
+        
         // Remove Attribute class: show
         ols.removeAttribute('class', 'show')
         // Set Attribute class: hidden
