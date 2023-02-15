@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --tseva0: #AAA8AD;
+    --tseva1: #59595B;
+    --tseva2: #3F3E3C;
+    --tseva3: #1E1F23;
+    --tseva4: #0D0D0D;
+    --medinat0: #0A2666;
+    --medinat1: #B32E12;
+    --medinat2: #0036B2;
+    --medinat3: #77B312;
+    --medinat4: #426605;
+}
+
+body {
+    width: 100vw;
+}
+header {
+    background-color: var(--medinat2);
+    color: white;
+    display: grid;
+    /*flex-direction: column;*/
+    
+}
+
+#menu1 {
+    text-align: right;
+    margin: 20px;
+    
+}
+
+#menu1 > p {
+    display: inline-block;
+    padding: 7px;
+    background-color: var(--medinat0);
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+#menu1 > p > span {
+    transform: translateY(5px);
+    padding-right: 4px;
+}
+
+
+#menuNav > ol > a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
