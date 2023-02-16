@@ -26,6 +26,9 @@ header {
     background-color: var(--medinat2);
     color: white;
     display: grid;
+    height: 100px;
+    transition: all ease-in-out 0.5s;
+    
     /*flex-direction: column;*/
     
 }
@@ -33,15 +36,32 @@ header {
 #menu1 {
     text-align: right;
     margin: 20px;
-    
+    transition: all ease-in-out 0.5s;
 }
 
 #menu1 > p {
     display: inline-block;
-    padding: 7px;
-    background-color: var(--medinat0);
     font-size: 20px;
+    padding: 7px;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+#menu1 > p:hover {
+    background-color: var(--medinat0);
+}
+
+.onC {
+    background-color: var(--medinat0);
+    
+}
+
+.tamanhoC {
+    height: 550px;
+}
+
+.hidden {
+    display: none !important;
 }
 
 #menu1 > p > span {
@@ -49,9 +69,19 @@ header {
     padding-right: 4px;
 }
 
+#menuNav {
+    background-color: transparent;
+    display: block;
+    
+}
 
 #menuNav > ol > a{
     display: block;
     color: white;
     text-decoration: none;
+    line-height: 1.2em;
+    padding: 15px;
+    margin: 18px;
+    border-radius: 10px;
+    background-color: gray;
 }
