@@ -5,7 +5,7 @@ menuControl.addEventListener('click', () => {
     menuControl.classList.toggle('menu1On')//Adiciona a class onC no elemento MenuC
     header.classList.toggle('tamanhoFull')//Adiciona o tamanho maximo de header
     if (header.classList.contains('tamanhoFull')) {
-    setTimeout(() => {menuNav.classList.toggle('hidden')}, 500)
+    setTimeout(() => {menuNav.classList.toggle('hidden')}, 350)
     } else {
         menuNav.classList.toggle('hidden')
     }
