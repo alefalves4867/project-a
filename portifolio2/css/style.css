@@ -21,13 +21,14 @@
 
 body {
     width: 100vw;
+    font-family: Helvetica, Arial,  sans-serif;
 }
 
 header {
     background-color: var(--medinat2);
     color: white;
     display: grid;
-    height: 95px;
+    height: 70px;
     transition: all ease-in-out 0.5s;
 }
 
@@ -38,7 +39,7 @@ header {
 
 #menu1 > p {/*p Style*/
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 15px;
     padding: 7px;
     border-radius: 4px;
     cursor: pointer;
@@ -54,9 +55,9 @@ header {
 }
 
 #menu1 > p > span {/*Style burguer menu*/
-    font-size: 1.3em;
-    transform: translateY(5px);
-    padding-right: 4px;
+    font-size: 1.2em;
+    transform: translateY(3.5px);
+    padding-left: 2px;
 }
 
 .tamanhoFull { /*Menu height full*/
@@ -71,9 +72,16 @@ header {
     display: block;
     color: white;
     text-decoration: none;
+    font-size: 14px;
     line-height: 1.2em;
     padding: 15px;
     margin: 18px;
     border-radius: 10px;
-    background-color: gray;
+    
+}
+
+#menuNav > ol > a:hover { /*Style Links when hover on*/
+    background-color: black !important;
+    
+    border-radius: 7px;
 }
