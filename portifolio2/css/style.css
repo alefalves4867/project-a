@@ -45,6 +45,7 @@ header {
     border-radius: 4px;
     cursor: pointer;
     transform: translateY(-5px);
+    user-select: none;
 }
 
 #menu1 > p:hover {/*When p is on hover*/
@@ -86,3 +87,6 @@ header {
     background-color: black !important;
     border-radius: 7px;
 }
+
+
+/*Links concluidos agora é a parte do conteúdo príncipal*/
