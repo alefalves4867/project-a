@@ -59,7 +59,7 @@ header {
 
 #menu1 > p > span {/*Style burguer menu*/
     font-size: 1.2em;
-    transform: translateY(3.5px);
+    transform: translate(-1.2px, 3px);
     padding-left: 2px;
 }
 
