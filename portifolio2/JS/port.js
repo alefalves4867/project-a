@@ -1,10 +1,10 @@
-const menuC = document.getElementById('MenuC')
+const menuControl = document.getElementById('MenuControl')
 const menuNav = document.getElementById('menuNav')
 const header = document.getElementById('header')
-menuC.addEventListener('click', () => {
-    menuC.classList.toggle('onC')//Adiciona a class onC no elemento MenuC
-    header.classList.toggle('tamanhoC')//Adiciona o tamanho maximo de header
-    if (header.classList.contains('tamanhoC')) {
+menuControl.addEventListener('click', () => {
+    menuControl.classList.toggle('menu1On')//Adiciona a class onC no elemento MenuC
+    header.classList.toggle('tamanhoFull')//Adiciona o tamanho maximo de header
+    if (header.classList.contains('tamanhoFull')) {
     setTimeout(() => {menuNav.classList.toggle('hidden')}, 500)
     } else {
         menuNav.classList.toggle('hidden')

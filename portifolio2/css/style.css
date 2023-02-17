@@ -22,60 +22,52 @@
 body {
     width: 100vw;
 }
+
 header {
     background-color: var(--medinat2);
     color: white;
     display: grid;
     height: 95px;
     transition: all ease-in-out 0.5s;
-    
-    /*flex-direction: column;*/
-    
 }
 
-#menu1 {
+#menu1 {/*menu button position and style*/
     text-align: right;
     margin: 20px;
-    transition: all ease-in-out 0.5s;
 }
 
-#menu1 > p {
+#menu1 > p {/*p Style*/
     display: inline-block;
-    font-size: 20px;
+    font-size: 1.2em;
     padding: 7px;
     border-radius: 4px;
     cursor: pointer;
 }
 
-#menu1 > p:hover {
+#menu1 > p:hover {/*When p is on hover*/
     background-color: var(--medinat0);
 }
 
-.onC {
+.menu1On {/*Menu buttom*/
     background-color: var(--medinat0);
     
 }
 
-.tamanhoC {
-    height: 550px;
-}
-
-.hidden {
-    display: none !important;
-}
-
-#menu1 > p > span {
+#menu1 > p > span {/*Style burguer menu*/
+    font-size: 1.3em;
     transform: translateY(5px);
     padding-right: 4px;
 }
 
-#menuNav {
-    background-color: transparent;
-    display: block;
-    
+.tamanhoFull { /*Menu height full*/
+    height: 550px;
 }
 
-#menuNav > ol > a{
+.hidden { /*Menu hidden*/
+    display: none !important;
+}
+
+#menuNav > ol > a{ /*Style Links*/
     display: block;
     color: white;
     text-decoration: none;
