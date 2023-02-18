@@ -22,6 +22,7 @@
 body {
     width: 100vw;
     font-family: Helvetica, Arial,  sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -90,6 +91,29 @@ header {
 }
 
 
-
 /*Links concluidos agora é a parte do conteúdo príncipal*/
+
+#imagem1 {
+    background-image: url(../imagens/paisagem1.jpg);
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#logo {
+   width: 100%;
+   display: grid;
+   background-color: green;
+   justify-items: center;
+   align-items: start;
+}
+
+#logo > img {
+    height: 10%;
+    width: 15.5%;
+    background-color: #748752;
+}
 
