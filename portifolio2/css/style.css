@@ -98,15 +98,25 @@ header {
 }
 
 #logo {
-  width: 100%;
-  display: grid;
+  width: 400px;
+  display: block;
   background-color: green;
-  justify-items: center;
-  align-items: start;
+  position: relative;
 }
 
-#logo > img {
-  height: 10%;
-  width: 15.5%;
-  background-color: #748752;
+#princ {
+  height: 122px;
+  width: 120px;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#alpha {
+  width: 20px;
+  top: 8.5%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */
