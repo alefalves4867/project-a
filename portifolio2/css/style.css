@@ -134,7 +134,7 @@ header {
 }
 
 #alpha {
-  width: 20px;
+  width: 25.5px;
   top: 15.5%;
   left: 33%;
   -webkit-transform: translate(-50%, -50%);
@@ -143,9 +143,27 @@ header {
 }
 
 #lambda {
-  width: 20px;
+  width: 28px;
   top: 15.5%;
-  left: 33%;
+  left: 38.5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#epsilon {
+  width: 28px;
+  top: 15.5%;
+  left: 43%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#phi {
+  width: 28px;
+  top: 15.5%;
+  left: 49%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   position: absolute;

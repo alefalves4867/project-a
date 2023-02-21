@@ -120,9 +120,10 @@ header {
     position: absolute;
 }
 #alpha {
-    width: 20px;
-    // top: 8.5%;
-    // left: 56%;
+    width: 25.5px;
+    //width: 22.5px;
+    //top: 8.5%;
+    //left: 56%;
     top: 15.5%;//animation
     left: 33%;//animation
     transform: translate(-50%, -50%);
@@ -130,11 +131,31 @@ header {
 }
 
 #lambda {
-    width: 20px;
+    width: 28px;
+    top: 15.5%;
+    left: 38.5%;
     // top: 8.5%;
     // left: 56%;
-    top: 15.5%;//animation
-    left: 33%;//animation
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#epsilon {
+    width: 28px;
+    top: 15.5%;
+    left: 43%;
+    // top: 8.5%;
+    // left: 56%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#phi {
+    width: 28px;
+    top: 15.5%;
+    left: 49%;
+    // top: 8.5%;
+    // left: 56%;
     transform: translate(-50%, -50%);
     position: absolute;
 }
