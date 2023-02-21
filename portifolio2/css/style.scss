@@ -233,17 +233,18 @@ header {
     }
 
     75% {
-        top: 15.25%;//animation F
-        left: 35%;//animation F
+        opacity: 28%;
     }
     98% {
-        top: 15.25%;//animation F
-        left: 0%;//animation F
+        top: 15.25%;//animation 1
+        left: 40%;//animation 1
+        opacity: 18%;
     }
 
     100% {
-        top: 15.25%;//animation F
-        left: 0%;//animation F
+        top: 15.25%;//animation 1
+        left: 38%;//animation 1
+        opacity: 0%;
     }
 }
 

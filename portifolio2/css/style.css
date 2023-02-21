@@ -204,15 +204,16 @@ header {
     opacity: 48%;
   }
   75% {
-    top: 15.25%;
-    left: 35%;
+    opacity: 28%;
   }
   98% {
     top: 15.25%;
-    left: 0%;
+    left: 40%;
+    opacity: 18%;
   }
   100% {
     top: 15.25%;
-    left: 0%;
+    left: 38%;
+    opacity: 0%;
   }
 }/*# sourceMappingURL=style.css.map */
