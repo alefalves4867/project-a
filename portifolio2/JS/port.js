@@ -13,6 +13,7 @@ menuControl.addEventListener('click', () => {
 })
 
 function load() {
+    const alpha = document.getElementById('alpha')
     const lefs = [...document.getElementsByClassName('lef')]
     lefs.map((e)=>{
         e.classList.add('lefs')
@@ -22,7 +23,11 @@ function load() {
             e.classList.remove('lefs')
             e.classList.add('secondPosition')
         })
-    },9200)
+    },7500)
+
+    setTimeout(() => {
+        alpha.setAttribute('class', 'alphaReturn')
+    }, 9400)
 }
 
 

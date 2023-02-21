@@ -171,13 +171,13 @@ header {
 .testAlpha {
     animation-delay: 2s;
     animation-name: animationAlphaF;
-    animation-duration: 7s;
+    animation-duration: 4s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
 }
 
 .lefs {
-    animation-delay: 5.5s;
+    animation-delay: 4.5s;
     animation-name: lefs;
     animation-duration: 4s;
     animation-timing-function: ease;
@@ -186,7 +186,14 @@ header {
 
 .secondPosition {
     animation-name: SP;
-    animation-duration: 4s;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.alphaReturn {
+    animation-name: returnAlpha;
+    animation-duration: 3s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
 }
@@ -237,15 +244,31 @@ header {
     }
     98% {
         top: 15.25%;//animation 1
-        left: 40%;//animation 1
-        opacity: 18%;
+        left: 38%;//animation 1
+        opacity: 15%;
     }
 
     100% {
         top: 15.25%;//animation 1
-        left: 38%;//animation 1
+        left: 36%;//animation 1
         opacity: 0%;
     }
+}
+
+@keyframes returnAlpha {
+    from {
+        width: 35.5px;//animation F
+        top: 15.25%;//animation F
+        left: 38%;//animation F
+    }
+    
+    to {
+        width: 22.5px;
+        top: 8.5%;
+        left: 56%;
+        transform: translate(-50%, -50%);
+    }
+
 }
 
 
