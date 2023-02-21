@@ -121,8 +121,20 @@ header {
 }
 #alpha {
     width: 20px;
-    top: 8.5%;
-    left: 56%;
+    // top: 8.5%;
+    // left: 56%;
+    top: 15.5%;//animation
+    left: 33%;//animation
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#lambda {
+    width: 20px;
+    // top: 8.5%;
+    // left: 56%;
+    top: 15.5%;//animation
+    left: 33%;//animation
     transform: translate(-50%, -50%);
     position: absolute;
 }
