@@ -118,7 +118,13 @@ header {
     left: 50%;
     transform: translate(-49%, -50%);
     position: absolute;
+    transition: left 0.5s;
 }
+
+.apresentationP {
+    left: 22% !important;
+}
+
 #alpha {
     // width: 35.5px;//animation F
     // top: 15.25%;//animation F

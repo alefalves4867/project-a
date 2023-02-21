@@ -13,6 +13,7 @@ menuControl.addEventListener('click', () => {
 })
 
 function load() {
+    const logoP = document.getElementById('princ')
     const alpha = document.getElementById('alpha')
     const lefs = [...document.getElementsByClassName('lef')]
     alpha.setAttribute('class', 'testAlpha')
@@ -39,6 +40,10 @@ function load() {
             alpha.setAttribute('hidden', 'hidden')
         }, 550)
     }, 9750)
+
+    setTimeout(() => {
+        logoP.setAttribute('class', 'apresentationP')
+    }, 10275)
 }
 
 
