@@ -116,48 +116,135 @@ header {
     width: 120px;
     top: 8%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-49%, -50%);
     position: absolute;
 }
 #alpha {
-    width: 25.5px;
-    //width: 22.5px;
-    //top: 8.5%;
-    //left: 56%;
-    top: 15.5%;//animation
-    left: 33%;//animation
+    // width: 35.5px;//animation F
+    // top: 15.25%;//animation F
+    // left: 38%;//animation F
+
+    // width: 35.5px;//animation 1
+    // top: 15.25%;//animation 1
+    // left: 65%;//animation 1
+
+    width: 22.5px;
+    top: 8.5%;
+    left: 56%;
     transform: translate(-50%, -50%);
     position: absolute;
 }
 
 #lambda {
-    width: 28px;
-    top: 15.5%;
-    left: 38.5%;
+    width: 48px;
+    top: 15.0%;
+    left: 46.5%;
     // top: 8.5%;
     // left: 56%;
     transform: translate(-50%, -50%);
     position: absolute;
+    opacity: 0%;
 }
 
 #epsilon {
-    width: 28px;
-    top: 15.5%;
-    left: 43%;
+    width: 47.5px;
+    top: 15.0%;
+    left: 54%;
     // top: 8.5%;
     // left: 56%;
     transform: translate(-50%, -50%);
     position: absolute;
+    opacity: 0%;
 }
 
 #phi {
-    width: 28px;
+    width: 47px;
     top: 15.5%;
-    left: 49%;
+    left: 63%;
     // top: 8.5%;
     // left: 56%;
     transform: translate(-50%, -50%);
     position: absolute;
+    opacity: 0%;
+}
+
+.testAlpha {
+    animation-delay: 2s;
+    animation-name: animationAlphaF;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.lefs {
+    animation-delay: 5.5s;
+    animation-name: lefs;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.secondPosition {
+    animation-name: SP;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+//animations:
+
+@keyframes animationAlphaF {
+    50% {
+        width: 35.5px;//animation 1
+        top: 15.25%;//animation 1
+        left: 65%;//animation 1
+    }
+    70% {
+        width: 35.5px;//animation F
+        top: 15.25%;//animation F
+        left: 38%;//animation F
+    }
+    100% {
+        width: 35.5px;//animation F
+        top: 15.25%;//animation F
+        left: 38%;//animation F
+    }
+}
+
+@keyframes lefs {
+    to {
+        opacity: 100%;
+    }
+}
+
+
+
+@keyframes SP {
+    0% {
+        opacity: 90%;
+    }
+    
+    25% {
+        opacity: 68%;
+    }
+
+    50% {
+        opacity: 48%;
+    }
+
+    75% {
+        top: 15.25%;//animation F
+        left: 35%;//animation F
+    }
+    98% {
+        top: 15.25%;//animation F
+        left: 0%;//animation F
+    }
+
+    100% {
+        top: 15.25%;//animation F
+        left: 0%;//animation F
+    }
 }
 
 

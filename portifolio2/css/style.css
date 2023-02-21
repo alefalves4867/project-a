@@ -2,8 +2,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
@@ -21,72 +20,59 @@
 
 body {
   width: 100vw;
-  font-family: Helvetica, Arial,  sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
 
 header {
   background-color: var(--medinat2);
   color: white;
-  display: -ms-grid;
   display: grid;
   height: 70px;
   padding-right: 7px;
-  -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
 
-#menu1 {
-  /*menu button position and style*/
+#menu1 { /*menu button position and style*/
   text-align: right;
   margin: 20px;
 }
 
-#menu1 > p {
-  /*p Style*/
+#menu1 > p { /*p Style*/
   display: inline-block;
   font-size: 15px;
   padding: 7px;
   border-radius: 4px;
   cursor: pointer;
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
-#menu1 > p:hover {
-  /*When p is on hover*/
+#menu1 > p:hover { /*When p is on hover*/
   background-color: var(--medinat0);
 }
 
-.menu1On {
-  /*Menu buttom*/
+.menu1On { /*Menu buttom*/
   background-color: var(--medinat0);
 }
 
-#menu1 > p > span {
-  /*Style burguer menu*/
+#menu1 > p > span { /*Style burguer menu*/
   font-size: 1.2em;
-  -webkit-transform: translate(-1.2px, 3px);
-          transform: translate(-1.2px, 3px);
+  transform: translate(-1.2px, 3px);
   padding-left: 2px;
 }
 
-.tamanhoFull {
-  /*Menu height full*/
+.tamanhoFull { /*Menu height full*/
   height: 360px;
 }
 
-.hidden {
-  /*Menu hidden*/
+.hidden { /*Menu hidden*/
   display: none !important;
 }
 
-#menuNav > ol > a {
-  /*Style Links*/
+#menuNav > ol > a { /*Style Links*/
   display: block;
   color: white;
   text-decoration: none;
@@ -96,8 +82,7 @@ header {
   border-radius: 10px;
 }
 
-#menuNav > ol > a:hover {
-  /*Style Links when hover on*/
+#menuNav > ol > a:hover { /*Style Links when hover on*/
   background-color: black !important;
   border-radius: 7px;
 }
@@ -108,12 +93,8 @@ header {
   height: 1200px;
   background-repeat: no-repeat;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 #logo {
@@ -128,44 +109,110 @@ header {
   width: 120px;
   top: 8%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-49%, -50%);
   position: absolute;
 }
 
 #alpha {
-  width: 25.5px;
-  top: 15.5%;
-  left: 33%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  width: 22.5px;
+  top: 8.5%;
+  left: 56%;
+  transform: translate(-50%, -50%);
   position: absolute;
 }
 
 #lambda {
-  width: 28px;
-  top: 15.5%;
-  left: 38.5%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  width: 48px;
+  top: 15%;
+  left: 46.5%;
+  transform: translate(-50%, -50%);
   position: absolute;
+  opacity: 0%;
 }
 
 #epsilon {
-  width: 28px;
-  top: 15.5%;
-  left: 43%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  width: 47.5px;
+  top: 15%;
+  left: 54%;
+  transform: translate(-50%, -50%);
   position: absolute;
+  opacity: 0%;
 }
 
 #phi {
-  width: 28px;
+  width: 47px;
   top: 15.5%;
-  left: 49%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  left: 63%;
+  transform: translate(-50%, -50%);
   position: absolute;
+  opacity: 0%;
 }
-/*# sourceMappingURL=style.css.map */
+
+.testAlpha {
+  animation-delay: 2s;
+  animation-name: animationAlphaF;
+  animation-duration: 7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.lefs {
+  animation-delay: 5.5s;
+  animation-name: lefs;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.secondPosition {
+  animation-name: SP;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animationAlphaF {
+  50% {
+    width: 35.5px;
+    top: 15.25%;
+    left: 65%;
+  }
+  70% {
+    width: 35.5px;
+    top: 15.25%;
+    left: 38%;
+  }
+  100% {
+    width: 35.5px;
+    top: 15.25%;
+    left: 38%;
+  }
+}
+@keyframes lefs {
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes SP {
+  0% {
+    opacity: 90%;
+  }
+  25% {
+    opacity: 68%;
+  }
+  50% {
+    opacity: 48%;
+  }
+  75% {
+    top: 15.25%;
+    left: 35%;
+  }
+  98% {
+    top: 15.25%;
+    left: 0%;
+  }
+  100% {
+    top: 15.25%;
+    left: 0%;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -13,5 +13,16 @@ menuControl.addEventListener('click', () => {
 })
 
 function load() {
-    console.log('teste de carga')
+    const lefs = [...document.getElementsByClassName('lef')]
+    lefs.map((e)=>{
+        e.classList.add('lefs')
+    })
+    setTimeout(() => {
+        lefs.map((e)=>{
+            e.classList.remove('lefs')
+            e.classList.add('secondPosition')
+        })
+    },9200)
 }
+
+
