@@ -15,6 +15,7 @@ menuControl.addEventListener('click', () => {
 function load() {
     const alpha = document.getElementById('alpha')
     const lefs = [...document.getElementsByClassName('lef')]
+    alpha.setAttribute('class', 'testAlpha')
     lefs.map((e)=>{
         e.classList.add('lefs')
     })
