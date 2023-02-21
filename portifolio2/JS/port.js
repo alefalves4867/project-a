@@ -24,11 +24,21 @@ function load() {
             e.classList.remove('lefs')
             e.classList.add('secondPosition')
         })
-    },7500)
+    },5500)
 
     setTimeout(() => {
         alpha.setAttribute('class', 'alphaReturn')
-    }, 9400)
+        lefs.map((e)=>{
+            e.setAttribute('hidden', 'hidden')
+        })
+    }, 7400)
+
+    setTimeout(() => {
+        alpha.setAttribute('class', 'alphaRun')
+        setTimeout(()=>{
+            alpha.setAttribute('hidden', 'hidden')
+        }, 550)
+    }, 9750)
 }
 
 
