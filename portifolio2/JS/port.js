@@ -43,10 +43,18 @@ function load() {
 
     setTimeout(() => {
         logoP.setAttribute('class', 'apresentationP')
-        setTimeout(()=>{
-            logoP.setAttribute('hidden', 'hidden')
-        }, 500)
+        // setTimeout(()=>{
+        //     logoP.setAttribute('hidden', 'hidden')
+        // }, 500)
     }, 10275)
+
+    setTimeout(() => {
+        lefs.map((e)=>{
+            e.classList.remove('secondPosition')
+            e.classList.add('lefs2')
+            e.removeAttribute('hidden', 'hidden')
+        })
+    },12000)
 }
 
 
