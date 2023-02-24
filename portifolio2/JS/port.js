@@ -43,9 +43,9 @@ function load() {
 
     setTimeout(() => {
         logoP.setAttribute('class', 'apresentationP')
-        setTimeout(()=>{
-            logoP.setAttribute('hidden', 'hidden')
-        }, 500)
+        // setTimeout(()=>{
+        //     logoP.setAttribute('hidden', 'hidden')
+        // }, 500)
     }, 10275)
 }
 

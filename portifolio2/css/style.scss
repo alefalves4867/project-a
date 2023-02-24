@@ -102,7 +102,7 @@ header {
     background-position: left center;
     display: flex;
     justify-content: center;
-    
+    background-attachment: fixed;    
 }
 
 #logo {
@@ -119,11 +119,13 @@ header {
     left: 50%;
     transform: translate(-49%, -50%);
     position: absolute;
-    transition: opacity 0.8s;
+    transition: height 0.5s, width 0.5s, top 0.5s;
 }
 
 .apresentationP {
-    opacity: 0%;
+    height: 183px !important;
+    width: 180px !important;
+    top: 15% !important;
 }
 
 #alpha {
