@@ -113,13 +113,14 @@ header {
   left: 50%;
   transform: translate(-49%, -50%);
   position: absolute;
-  transition: height 0.5s, width 0.5s, top 0.5s;
+  transition: height 0.5s, width 0.5s, top 0.5s, left 0.5s;
 }
 
 .apresentationP {
   height: 183px !important;
   width: 180px !important;
   top: 15% !important;
+  left: 2% !important;
 }
 
 #alpha {
@@ -171,6 +172,17 @@ header {
   animation-duration: 4s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
+}
+
+.lefs2 {
+  top: 15% !important;
+  left: 3% !important;
+  animation-delay: 2.5s;
+  animation-name: lefs2;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  opacity: 100% !important;
 }
 
 .secondPosition {
