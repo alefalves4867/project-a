@@ -89,10 +89,12 @@ header {
 
 /*Links concluidos agora é a parte do conteúdo príncipal*/
 #imagem1 {
-  background-image: url(../imagens/paisagem1.jpg);
-  height: 1200px;
+  background-image: url(../imagens/paisagem2.jpg);
+  height: 750px;
+  padding-top: 20px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: left center;
   display: flex;
   justify-content: center;
 }
@@ -100,7 +102,6 @@ header {
 #logo {
   width: 400px;
   display: block;
-  background-color: green;
   position: relative;
 }
 
@@ -111,7 +112,7 @@ header {
   left: 50%;
   transform: translate(-49%, -50%);
   position: absolute;
-  transition: opacity 0.5s;
+  transition: opacity 0.8s;
 }
 
 .apresentationP {
@@ -128,7 +129,7 @@ header {
 
 #lambda {
   width: 48px;
-  top: 15%;
+  top: 18%;
   left: 46.5%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -137,7 +138,7 @@ header {
 
 #epsilon {
   width: 47.5px;
-  top: 15%;
+  top: 18%;
   left: 54%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -146,7 +147,7 @@ header {
 
 #phi {
   width: 47px;
-  top: 15.5%;
+  top: 18.5%;
   left: 63%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -193,17 +194,17 @@ header {
 @keyframes animationAlphaF {
   50% {
     width: 35.5px;
-    top: 15.25%;
+    top: 18.25%;
     left: 65%;
   }
   70% {
     width: 35.5px;
-    top: 15.25%;
+    top: 18.25%;
     left: 38%;
   }
   100% {
     width: 35.5px;
-    top: 15.25%;
+    top: 18.25%;
     left: 38%;
   }
 }
@@ -226,12 +227,12 @@ header {
     opacity: 28%;
   }
   98% {
-    top: 15.25%;
+    top: 18.25%;
     left: 38%;
     opacity: 15%;
   }
   100% {
-    top: 15.25%;
+    top: 18.25%;
     left: 36%;
     opacity: 0%;
   }
@@ -239,7 +240,7 @@ header {
 @keyframes returnAlpha {
   from {
     width: 35.5px;
-    top: 15.25%;
+    top: 18.25%;
     left: 38%;
   }
   to {
