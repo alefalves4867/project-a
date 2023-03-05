@@ -30,7 +30,7 @@
     transform: translateX(0vw);
   }
   to {
-    transform: translateX(31vw);
+    transform: translateX(9.75rem);
   }
 }
 .alfbt-animation1 {
