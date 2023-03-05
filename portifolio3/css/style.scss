@@ -112,21 +112,49 @@ main {
     background-attachment: fixed;
     padding-top: 50px;
     position: relative;
+    height: 400px;
 }
 
+.alfbt {
+    width: 200px;
+    border: 2px solid black;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
 
 #alpha {
-    position: absolute;
     background: url(../imagens/alpha.png) center no-repeat;
     background-size: cover;
-    width: 15%;
-    height: 90px;
-    top: 20px;
-    left: 10%;
+    width: 44px;
+    height: 40px;
+    margin-top: 5px;
 }
 
+#lambda {
+    background: url(../imagens/lambda.png) center no-repeat;
+    background-size: cover;
+    width: 49.5px;
+    height: 45px;
+    margin-left: 4px;
+}
 
+#epsilon {
+    background: url(../imagens/epsilon.png) center no-repeat;
+    background-size: cover;
+    width: 49.5px;
+    height: 45px;
+}
 
+#phi {
+    background: url(../imagens/phi.png) center no-repeat;
+    background-size: cover;
+    width: 49.5px;
+    height: 45px;
+    margin-top: 8px;
+}
 
 .h1{
     text-transform: none;
