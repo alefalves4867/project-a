@@ -12,12 +12,21 @@
     opacity: 100%;
   }
 }
+@keyframes logo-alef {
+  to {
+    opacity: 100%;
+  }
+}
 .alfbt-animation1 {
   animation: animation-alfbt 1.5s ease forwards;
 }
 
 .opacity-normal {
   animation: opacity-normal 2s ease forwards;
+}
+
+.logo_alef_animation {
+  animation: logo-alef 2s ease forwards;
 }
 
 * {
@@ -112,8 +121,19 @@ main {
   height: 400px;
 }
 
+.logo-alef {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  background: url(../imagens/alef-icon.png) center no-repeat;
+  background-size: cover;
+  opacity: 0%;
+}
+
 .alfbt {
-  border: 2px solid black;
   position: absolute;
   display: flex;
   left: 50%;

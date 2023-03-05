@@ -104,8 +104,20 @@ main {
     height: 400px;
 }
 
+.logo-alef{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    background: url(../imagens/alef-icon.png) center no-repeat;
+    background-size: cover;
+    opacity: 0%;
+}
+
 .alfbt {
-    border: 2px solid black;
+    //border: 2px solid black;
     position: absolute;
     display: flex;
     //left: 50%; //Posição final
@@ -153,6 +165,10 @@ main {
     opacity: 0%;
     
 }
+
+
+
+
 
 .h1{
     text-transform: none;
