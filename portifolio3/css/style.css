@@ -1,18 +1,23 @@
 @charset "UTF-8";
 @keyframes animation-alfbt {
   from {
-    left: 150%;
+    transform: translateX(100vw);
   }
   to {
-    left: 50%;
+    transform: translateX(0vw);
+  }
+}
+@keyframes opacity-normal {
+  to {
+    opacity: 100%;
   }
 }
 .alfbt-animation1 {
   animation: animation-alfbt 1.5s ease forwards;
 }
 
-.phy-normal {
-  opacity: 100% !important;
+.opacity-normal {
+  animation: opacity-normal 2s ease forwards;
 }
 
 * {
@@ -111,7 +116,7 @@ main {
   border: 2px solid black;
   position: absolute;
   display: flex;
-  left: 150%;
+  left: 50%;
   top: 20%;
   transform: translate(-50%, -50%);
 }
@@ -122,6 +127,7 @@ main {
   width: 44px;
   height: 40px;
   margin-top: 5px;
+  transform: translateX(100vw);
 }
 
 .lambda {
@@ -148,7 +154,6 @@ main {
   height: 45px;
   margin-top: 8px;
   opacity: 0%;
-  transition: opacity 1s ease;
 }
 
 .h1 {

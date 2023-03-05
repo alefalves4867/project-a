@@ -1,9 +1,16 @@
 @keyframes animation-alfbt {
   from {
-    left: 150%;
+    transform: translateX(100vw)
 
   }
   to {
-    left: 50%;
+    transform: translateX(0vw)
+  }
+}
+
+
+@keyframes opacity-normal {
+  to {
+    opacity: 100%;
   }
 }

@@ -110,7 +110,7 @@ main {
     display: flex;
     //left: 50%; //Posição final
     //top: 20%; //Posição final
-    left: 150%;
+    left: 50%;
     top: 20%;
     transform: translate(-50%, -50%); //Posição final
     
@@ -124,6 +124,7 @@ main {
     width: 44px;
     height: 40px;
     margin-top: 5px;
+    transform: translateX(100vw); //isso vai enviar o alpha totalmente para a direita
 }
 
 .lambda {
@@ -150,7 +151,7 @@ main {
     height: 45px;
     margin-top: 8px;
     opacity: 0%;
-    transition: opacity 1s ease;
+    
 }
 
 .h1{
