@@ -7,34 +7,34 @@
     
 }
 
-:root {
-    --tseva0: #AAA8AD;
-    --tseva1: #59595B;
-    --tseva2: #3F3E3C;
-    --tseva3: #1E1F23;
-    --tseva4: #0D0D0D;
-    --iom0: #1242B3;
-    --iom1: #334A80;
-    --iom2: #0A2666;
-    --iom3: #4768B3;
-    --iom4: #195EFF;
-    --medinat0: #0A2666;
-    --medinat1: #B32E12;
-    --medinat2: #0036B2;
-    --medinat3: #77B312;
-    --medinat4: #426605;
-}
+
+$tseva0: #AAA8AD;
+$tseva1: #59595B;
+$tseva2: #3F3E3C;
+$tseva3: #1E1F23;
+$tseva4: #0D0D0D;
+$iom0: #1242B3;
+$iom1: #334A80;
+$iom2: #0A2666;
+$iom3: #4768B3;
+$iom4: #195EFF;
+$medinat0: #0A2666;
+$medinat1: #B32E12;
+$medinat2: #0036B2;
+$medinat3: #77B312;
+$medinat4: #426605;
+
 
 body {
     width: 100vw;
     font-family: Helvetica, Arial,  sans-serif;
     overflow-x: hidden;
-    background-image: linear-gradient(to top, var(--iom0), var(--iom2));
+    background-image: linear-gradient(to top, $iom0, $iom2);
     background-attachment: fixed;
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--iom0), var(--iom2));
+    background-image: linear-gradient(to bottom, $iom0, $iom2);
     color: white;
     display: grid;
     height: 70px;
@@ -58,11 +58,11 @@ header {
 }
 
 #menu1 > p:hover {/*When p is on hover*/
-    background-color: var(--medinat0);
+    background-color: $medinat0;
 }
 
 .menu1On {/*Menu buttom*/
-    background-color: var(--medinat0);
+    background-color: $medinat0;
     
 }
 
@@ -116,13 +116,12 @@ main {
 }
 
 .alfbt {
-    width: 200px;
     border: 2px solid black;
     position: absolute;
     display: flex;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50%, -50%);
+    left: 50%; //Posição final
+    top: 20%; //Posição final
+    transform: translate(-50%, -50%); //Posição final
 }
 
 #alpha {
@@ -171,6 +170,4 @@ p {
     font-size: 14px;
 }
 
-.skills {
 
-}
