@@ -20,10 +20,22 @@ function load() {
           logo_alef.classList.add('logo_alef_animation')
           
           setTimeout(() => {
+            lambda.setAttribute('hidden', 'hidden')
+            epsilon.setAttribute('hidden', 'hidden')
+            phi.setAttribute('hidden', 'hidden')
+          }, 1000);
+
+          setTimeout(() => {
             alpha.classList.remove('alfbt-animation1')
             alpha.classList.add('alfbt-animation2')
             
-          }, 150)
+          }, 1050)
+
+         /* setTimeout(() => {
+            alpha.classList.remove('alfbt-animation1')
+            alpha.classList.add('alfbt-animation2')
+            
+          }, 1050)*/
 
 
         }, 100)

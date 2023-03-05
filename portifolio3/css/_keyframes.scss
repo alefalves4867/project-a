@@ -9,12 +9,10 @@
 }
 
 @keyframes animation-alfbt2 {
-  from {
-    transform: translateX(0vw)
 
-  }
   to {
-    transform: translate(0vw, 0vh)
+    transform: translate(-50%, -50%) scale(0.48)!important;
+    margin: 0px 0px -44px 92px;
   }
 }
 
