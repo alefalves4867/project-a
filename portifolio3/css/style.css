@@ -7,10 +7,12 @@
     transform: translateX(0vw);
   }
 }
-@keyframes animation-alfbt2 {
+@keyframes animation-alfbt3 {
+  from {
+    transform: translateX(0vw) scale(1);
+  }
   to {
-    transform: translate(-50%, -50%) scale(0.48) !important;
-    margin: 0px 0px -44px 92px;
+    transform: translate(-50%, -50%) scale(0.48);
   }
 }
 @keyframes opacity-normal {
@@ -23,12 +25,26 @@
     opacity: 100%;
   }
 }
+@keyframes animation-alfbt2 {
+  from {
+    transform: translateX(0vw);
+  }
+  to {
+    transform: translateX(31vw);
+  }
+}
 .alfbt-animation1 {
   animation: animation-alfbt 1.5s ease forwards;
 }
 
 .alfbt-animation2 {
   animation: animation-alfbt2 1.5s ease forwards;
+}
+
+.alfbt-animation3 {
+  animation: animation-alfbt3 1.5s ease forwards;
+  margin: 0px 0px -50px 92px;
+  transition: margin ease 1.5s;
 }
 
 .opacity-normal {

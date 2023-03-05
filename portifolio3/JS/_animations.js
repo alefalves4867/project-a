@@ -19,17 +19,19 @@ function load() {
         setTimeout(() => {
           logo_alef.classList.add('logo_alef_animation')
           
-          setTimeout(() => {
-            lambda.setAttribute('hidden', 'hidden')
-            epsilon.setAttribute('hidden', 'hidden')
-            phi.setAttribute('hidden', 'hidden')
-          }, 1000);
+          
 
           setTimeout(() => {
             alpha.classList.remove('alfbt-animation1')
             alpha.classList.add('alfbt-animation2')
-            
-          }, 1050)
+
+            /*setTimeout(() => {
+              lambda.setAttribute('hidden', 'hidden')
+              epsilon.setAttribute('hidden', 'hidden')
+              phi.setAttribute('hidden', 'hidden')
+            }, 1500);*/ //colocar os objetos em hidden
+
+          }, 2050)
 
          /* setTimeout(() => {
             alpha.classList.remove('alfbt-animation1')

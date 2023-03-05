@@ -8,11 +8,13 @@
   }
 }
 
-@keyframes animation-alfbt2 {
-
+@keyframes animation-alfbt3 {
+  from {
+    transform: translateX(0vw) scale(1);
+  }
   to {
-    transform: translate(-50%, -50%) scale(0.48)!important;
-    margin: 0px 0px -44px 92px;
+    transform: translate(-50%, -50%) scale(0.48);
+    
   }
 }
 
@@ -26,5 +28,14 @@
 @keyframes logo-alef {
   to {
     opacity: 100%;
+  }
+}
+
+@keyframes animation-alfbt2 {
+  from {
+    transform: translateX(0vw)
+  }
+  to {
+    transform: translateX(31vw);
   }
 }
