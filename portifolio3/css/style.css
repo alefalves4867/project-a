@@ -7,6 +7,14 @@
     left: 50%;
   }
 }
+.alfbt-animation1 {
+  animation: animation-alfbt 1.5s ease forwards;
+}
+
+.phy-normal {
+  opacity: 100% !important;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -108,11 +116,7 @@ main {
   transform: translate(-50%, -50%);
 }
 
-.alfbt-animation1 {
-  animation: animation-alfbt 1.5s ease forwards;
-}
-
-#alpha {
+.alpha {
   background: url(../imagens/alpha.png) center no-repeat;
   background-size: cover;
   width: 44px;
@@ -120,27 +124,31 @@ main {
   margin-top: 5px;
 }
 
-#lambda {
+.lambda {
   background: url(../imagens/lambda.png) center no-repeat;
   background-size: cover;
   width: 49.5px;
   height: 45px;
   margin-left: 4px;
+  opacity: 0%;
 }
 
-#epsilon {
+.epsilon {
   background: url(../imagens/epsilon.png) center no-repeat;
   background-size: cover;
   width: 49.5px;
   height: 45px;
+  opacity: 0%;
 }
 
-#phi {
+.phi {
   background: url(../imagens/phi.png) center no-repeat;
   background-size: cover;
   width: 49.5px;
   height: 45px;
   margin-top: 8px;
+  opacity: 0%;
+  transition: opacity 1s ease;
 }
 
 .h1 {
