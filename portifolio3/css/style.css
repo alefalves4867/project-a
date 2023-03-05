@@ -100,12 +100,16 @@ main {
 }
 
 .alfbt {
-  width: 200px;
   border: 2px solid black;
   position: absolute;
   display: flex;
-  animation: animation-alfbt 5s ease forwards;
+  left: 150%;
+  top: 20%;
   transform: translate(-50%, -50%);
+}
+
+.alfbt-animation1 {
+  animation: animation-alfbt 1.5s ease forwards;
 }
 
 #alpha {

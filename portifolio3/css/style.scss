@@ -105,14 +105,20 @@ main {
 }
 
 .alfbt {
-    width: 200px;
     border: 2px solid black;
     position: absolute;
     display: flex;
     //left: 50%; //Posição final
     //top: 20%; //Posição final
-    animation: animation-alfbt 5s ease forwards;
+    left: 150%;
+    top: 20%;
     transform: translate(-50%, -50%); //Posição final
+    
+}
+
+.alfbt-animation1 { //Vai ser adicionado ao carregar o navegado, pelo JS
+    animation: animation-alfbt 1.5s ease forwards;
+    
 }
 
 #alpha {

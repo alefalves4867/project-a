@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body onload="load()">
     <header id="header">
         <div id="menu1">
             <p id="MenuControl">MENU<span class="material-icons">menu</span></p>
@@ -27,7 +27,7 @@
     </header>
     <main>
         <section class="home-main-banner">
-            <div class="alfbt">
+            <div class="alfbt" id="alfbt">
                 <div id="alpha"></div>
                 <div id="lambda"></div>
                 <div id="epsilon"></div>
@@ -89,7 +89,8 @@
     <footer>
         <!--HERE CONTATO-->
     </footer>
-    <script type="module" src="JS/menu.js"></script>
+    <script src="JS/_menu.js"></script>
+    <script src="JS/_animations.js"></script>
     <script src="JS/main.js"></script>
 </body>
 </html>

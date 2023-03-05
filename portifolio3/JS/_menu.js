@@ -1,5 +1,7 @@
 /* MENU */
 
+
+
 const menuControl = document.getElementById('MenuControl')
 const menuNav = document.getElementById('menuNav')
 const header = document.getElementById('header')
