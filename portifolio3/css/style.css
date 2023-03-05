@@ -7,6 +7,14 @@
     transform: translateX(0vw);
   }
 }
+@keyframes animation-alfbt2 {
+  from {
+    transform: translateX(0vw);
+  }
+  to {
+    transform: translate(0vw, 0vh);
+  }
+}
 @keyframes opacity-normal {
   to {
     opacity: 100%;
@@ -19,6 +27,13 @@
 }
 .alfbt-animation1 {
   animation: animation-alfbt 1.5s ease forwards;
+}
+
+.alfbt-animation2 {
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%) scale(0.5) !important;
+  margin: 0px 0px -44px 94px;
 }
 
 .opacity-normal {

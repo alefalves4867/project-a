@@ -19,6 +19,13 @@ function load() {
         setTimeout(() => {
           logo_alef.classList.add('logo_alef_animation')
           
+          setTimeout(() => {
+            alpha.classList.remove('alfbt-animation1')
+            alpha.classList.add('alfbt-animation2')
+            
+          }, 150)
+
+
         }, 100)
 
 
