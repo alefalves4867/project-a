@@ -1,4 +1,10 @@
 @charset "UTF-8";
+
+@import "./_tzevaim.scss";
+@import "./_variables.scss";
+@import "./_keyframes.scss";
+
+
 * {
     padding: 0;
     margin: 0;
@@ -6,23 +12,6 @@
     border: none;
     
 }
-
-
-$tseva0: #AAA8AD;
-$tseva1: #59595B;
-$tseva2: #3F3E3C;
-$tseva3: #1E1F23;
-$tseva4: #0D0D0D;
-$iom0: #1242B3;
-$iom1: #334A80;
-$iom2: #0A2666;
-$iom3: #4768B3;
-$iom4: #195EFF;
-$medinat0: #0A2666;
-$medinat1: #B32E12;
-$medinat2: #0036B2;
-$medinat3: #77B312;
-$medinat4: #426605;
 
 
 body {
@@ -116,11 +105,13 @@ main {
 }
 
 .alfbt {
+    width: 200px;
     border: 2px solid black;
     position: absolute;
     display: flex;
-    left: 50%; //Posição final
-    top: 20%; //Posição final
+    //left: 50%; //Posição final
+    //top: 20%; //Posição final
+    animation: animation-alfbt 5s ease forwards;
     transform: translate(-50%, -50%); //Posição final
 }
 

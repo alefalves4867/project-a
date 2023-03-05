@@ -1,4 +1,12 @@
 @charset "UTF-8";
+@keyframes animation-alfbt {
+  from {
+    left: 150%;
+  }
+  to {
+    left: 50%;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -92,11 +100,11 @@ main {
 }
 
 .alfbt {
+  width: 200px;
   border: 2px solid black;
   position: absolute;
   display: flex;
-  left: 50%;
-  top: 20%;
+  animation: animation-alfbt 5s ease forwards;
   transform: translate(-50%, -50%);
 }
 
