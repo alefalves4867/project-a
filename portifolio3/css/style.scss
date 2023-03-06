@@ -210,3 +210,30 @@ p {
     color: white;
     font-weight: 700;
 }
+
+//Conteúdo principal
+
+.introducao {
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.151);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    div {
+        padding: 2rem;
+        h2 {
+            color: white;
+            margin-top: 1rem;
+        }
+
+        p {
+            font-size: 14px;
+            color: white;
+            margin-bottom: 1rem;
+        }
+    }   
+
+    
+}
