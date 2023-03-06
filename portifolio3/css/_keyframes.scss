@@ -8,12 +8,14 @@
   }
 }
 
-@keyframes animation-alfbt3 {
+@keyframes alpha-to-center {
   from {
-    transform: translateX(0vw) scale(1);
+    transform: translateX(9.75rem);
+    margin-top: 5px;
   }
   to {
-    transform: translate(-50%, -50%) scale(0.48);
+    transform: translate(-50%, 14%) scale(0.48);
+    margin: 0.28rem 0rem 0rem 15rem;
     
   }
 }
@@ -37,5 +39,14 @@
   }
   to {
     transform: translateX(9.75rem);
+  }
+}
+
+@keyframes opacity-upper {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
   }
 }

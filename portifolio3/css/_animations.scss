@@ -4,16 +4,11 @@
 }
 
 .alfbt-animation2 {
-  animation: animation-alfbt2 1.5s ease forwards;
+  animation: animation-alfbt2 2s ease forwards;
 
 }
 
 
-.alfbt-animation3 { //Coloca o alfa no centro do alef-logo
-  animation: animation-alfbt3 1.5s ease forwards;
-  margin: 0px 0px -50px 92px;
-  transition: margin ease 1.5s;
-}
 
 .opacity-normal {
   animation: opacity-normal 2s ease forwards;
@@ -23,4 +18,14 @@
 .logo_alef_animation {
 
   animation: logo-alef 2s ease forwards;
+}
+
+
+.opacity-upper {
+  animation: opacity-upper 1s ease forwards;
+}
+
+.alpha-to-center { //Coloca o alfa no centro do alef-logo
+  
+  animation: alpha-to-center 2.5s ease forwards;
 }

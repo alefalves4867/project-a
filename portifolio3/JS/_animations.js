@@ -20,18 +20,40 @@ function load() {
           logo_alef.classList.add('logo_alef_animation')
           
           
+        }, 4150)
+        setTimeout(() => {
+          alpha.classList.remove('alfbt-animation1')
+          alpha.classList.add('alfbt-animation2')
 
-          setTimeout(() => {
-            alpha.classList.remove('alfbt-animation1')
-            alpha.classList.add('alfbt-animation2')
 
+          
+          setTimeout(() => { //Animation upacity == 0% 
+            lambda.classList.add('opacity-upper')
+            setTimeout(() => {
+              epsilon.classList.add('opacity-upper')
+              setTimeout(() => {
+                phi.classList.add('opacity-upper')
+                }, 350)
+              }, 49.5)
+          }, 46.2)
+
+
+          setTimeout(()=>{
+            alpha.classList.remove('alfbt-animation2')
+            alpha.classList.add('alpha-to-center')
+          }, 2800)
+          
+          
+
+          
+        }, 1000)
             /*setTimeout(() => {
               lambda.setAttribute('hidden', 'hidden')
               epsilon.setAttribute('hidden', 'hidden')
               phi.setAttribute('hidden', 'hidden')
             }, 1500);*/ //colocar os objetos em hidden
 
-          }, 2050)
+          
 
          /* setTimeout(() => {
             alpha.classList.remove('alfbt-animation1')
@@ -40,7 +62,7 @@ function load() {
           }, 1050)*/
 
 
-        }, 100)
+        
 
 
       }, 200)

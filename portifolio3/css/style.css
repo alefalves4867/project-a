@@ -7,12 +7,14 @@
     transform: translateX(0vw);
   }
 }
-@keyframes animation-alfbt3 {
+@keyframes alpha-to-center {
   from {
-    transform: translateX(0vw) scale(1);
+    transform: translateX(9.75rem);
+    margin-top: 5px;
   }
   to {
-    transform: translate(-50%, -50%) scale(0.48);
+    transform: translate(-50%, 14%) scale(0.48);
+    margin: 0.28rem 0rem 0rem 15rem;
   }
 }
 @keyframes opacity-normal {
@@ -33,18 +35,20 @@
     transform: translateX(9.75rem);
   }
 }
+@keyframes opacity-upper {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
 .alfbt-animation1 {
   animation: animation-alfbt 1.5s ease forwards;
 }
 
 .alfbt-animation2 {
-  animation: animation-alfbt2 1.5s ease forwards;
-}
-
-.alfbt-animation3 {
-  animation: animation-alfbt3 1.5s ease forwards;
-  margin: 0px 0px -50px 92px;
-  transition: margin ease 1.5s;
+  animation: animation-alfbt2 2s ease forwards;
 }
 
 .opacity-normal {
@@ -53,6 +57,14 @@
 
 .logo_alef_animation {
   animation: logo-alef 2s ease forwards;
+}
+
+.opacity-upper {
+  animation: opacity-upper 1s ease forwards;
+}
+
+.alpha-to-center {
+  animation: alpha-to-center 2.5s ease forwards;
 }
 
 * {
