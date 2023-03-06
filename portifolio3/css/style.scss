@@ -10,7 +10,7 @@
     margin: 0;
     box-sizing: border-box;
     border: none;
-    
+    font-family: inherit;
 }
 
 
@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, $iom0, $iom2);
+    background-image: linear-gradient(to bottom, $iom2, $iom0);
     color: white;
     display: grid;
     height: 70px;
@@ -99,7 +99,7 @@ main {
     background: url(../imagens/background.jpg) top no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 50px;
+    padding-top: 150px;
     position: relative;
     height: 400px;
 }
@@ -186,3 +186,27 @@ p {
 }
 
 
+//Frase 1
+
+.phrase {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    margin-left: 200%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.phrase h1{
+    font-size: 100px;
+    color: white;
+    
+}
+
+.phrase h3{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}

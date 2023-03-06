@@ -4,7 +4,7 @@ const lambda = document.querySelector('.lambda')
 const epsilon = document.querySelector('.epsilon')
 const phi = document.querySelector('.phi')
 const logo_alef = document.querySelector('.logo-alef')
-
+const phrase = document.querySelector('.phrase')
 
 
 function load() {
@@ -19,6 +19,13 @@ function load() {
         setTimeout(() => {
           logo_alef.classList.add('logo_alef_animation')
           
+          setTimeout(()=>{
+            phrase.classList.add('phrase2')
+
+
+          },2000)
+
+
           
         }, 4150)
         setTimeout(() => {
