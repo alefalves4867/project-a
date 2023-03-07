@@ -215,7 +215,7 @@ p {
 
 .introducao {
     width: 100vw;
-    //background-color: rgba(255, 255, 255, 0.151);
+    background: linear-gradient(to bottom, $iom1, $iom0);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,20 +246,98 @@ p {
 
 //skills
 
+.skills {
+    text-align: center;
+    border-top: 2px solid $medinat0;
+    padding-top: 20px;
+    color: white;
+    background: linear-gradient(to top, $iom0, $iom1);
+}
+
+.skills ul div{
+    display: flex;
+    margin-top: 5px;
+    
+    width: 100vw;
+    
+
+}
 
 li {
     list-style-type: none;
     text-align: center;
-    color: white;
+
     img {
         transform: scale(0.8);
     }
 }
-.skills ul div{
-    display: flex;
-    
-    background-color: rgba(255, 255, 255, 0.144);
-    width: 100vw;
-    
 
+.o-que-faco {
+    //background-color: rgba(255, 255, 255, 0.144);
+    width: 100vw;
+    text-align: center;
+    p {
+        text-align: center;
+    }
+    color: white;
+}
+
+//Portfolio
+
+#portfolio {
+    padding-top: 2rem;
+    border-top: 2px solid $medinat0;
+    h2 {
+        color: white;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    p {
+        color: rgba(255, 255, 255, 0.849);
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+}
+
+
+.portfolio {
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-family: sans-serif;
+
+    .number1, .number2, .number3, .number4{
+        height: 200px;
+        width: 350px;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.39);
+        color: rgba(255, 255, 255, 0.568);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .number1 {
+        background-color: $tseva1;
+    }
+
+    .number2 {
+        background-color: $tseva2;
+    }
+
+    .number3 {
+        background-color: $tseva3;
+    }
+
+    .number4 {
+        background-color: $tseva4;
+    }
+    
 }
