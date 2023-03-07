@@ -159,7 +159,7 @@ header {
   display: block;
   color: white;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 0.9rem;
   padding: 12px;
   margin-left: 7px;
   border-radius: 10px;
@@ -308,12 +308,17 @@ p {
 .skills ul div {
   display: flex;
   margin-top: 5px;
+  align-items: center;
+  justify-content: space-around;
   width: 100vw;
 }
 
 li {
   list-style-type: none;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
 }
 li img {
   transform: scale(0.8);
@@ -341,6 +346,9 @@ li img {
   color: rgba(255, 255, 255, 0.849);
   padding-top: 1rem;
   font-size: 1rem;
+}
+#portfolio h2, #portfolio p {
+  padding-left: 2rem;
 }
 
 .portfolio {
